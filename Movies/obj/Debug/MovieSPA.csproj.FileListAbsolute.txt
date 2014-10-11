@@ -1,0 +1,42 @@
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\bin\MovieSPA.dll.config
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\bin\MovieSPA.dll
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\bin\MovieSPA.pdb
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\bin\EntityFramework.dll
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\bin\EntityFramework.SqlServer.dll
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\bin\Newtonsoft.Json.dll
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\bin\System.Net.Http.Formatting.dll
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\bin\System.Web.Http.dll
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\bin\System.Web.Http.WebHost.dll
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\bin\EntityFramework.xml
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\bin\EntityFramework.SqlServer.xml
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\bin\Newtonsoft.Json.xml
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\bin\System.Net.Http.Formatting.xml
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\bin\System.Web.Http.xml
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\bin\System.Web.Http.WebHost.xml
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\obj\Debug\MovieSPA.csprojResolveAssemblyReference.cache
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\obj\Debug\MovieSPA.Migrations.Initial.resources
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\obj\Debug\MovieSPA.csproj.GenerateResource.Cache
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\obj\Debug\MovieSPA.dll
+C:\Users\nielshenrikjuul\Documents\Visual Studio 2013\Projects\MoviesSPA-master\MovieSPA.Knockout\obj\Debug\MovieSPA.pdb
+C:\Users\niha\Documents\Visual Studio 2013\Projects\Movies\obj\Debug\MovieSPA.csprojResolveAssemblyReference.cache
+C:\Users\niha\Documents\Visual Studio 2013\Projects\Movies\obj\Debug\MovieSPA.Migrations.Initial.resources
+C:\Users\niha\Documents\Visual Studio 2013\Projects\Movies\obj\Debug\MovieSPA.csproj.GenerateResource.Cache
+C:\Users\niha\Documents\Visual Studio 2013\Projects\Movies\obj\Debug\MovieSPA.dll
+C:\Users\niha\Documents\Visual Studio 2013\Projects\Movies\obj\Debug\MovieSPA.pdb
+C:\inetpub\wwwroot\Movies\obj\Debug\MovieSPA.Migrations.Initial.resources
+C:\inetpub\wwwroot\Movies\obj\Debug\MovieSPA.csproj.GenerateResource.Cache
+C:\inetpub\wwwroot\Movies\obj\Debug\MovieSPA.dll
+C:\inetpub\wwwroot\Movies\obj\Debug\MovieSPA.pdb
+C:\Users\oleksandr\Documents\Visual Studio 2013\Projects\Movies\obj\Debug\MovieSPA.csprojResolveAssemblyReference.cache
+C:\Users\oleksandr\Documents\Visual Studio 2013\Projects\Movies\obj\Debug\MovieSPA.Migrations.Initial.resources
+C:\Users\oleksandr\Documents\Visual Studio 2013\Projects\Movies\obj\Debug\MovieSPA.csproj.GenerateResource.Cache
+C:\Users\oleksandr\Documents\Visual Studio 2013\Projects\Movies\obj\Debug\MovieSPA.dll
+C:\Users\oleksandr\Documents\Visual Studio 2013\Projects\Movies\obj\Debug\MovieSPA.pdb
+C:\inetpub\wwwroot\ajax\music\MovieSPA.dll.config
+C:\inetpub\wwwroot\ajax\music\MovieSPA.dll
+C:\inetpub\wwwroot\ajax\music\MovieSPA.pdb
+C:\Users\oleksandr\Documents\GitHub\Movies\obj\Debug\MovieSPA.csprojResolveAssemblyReference.cache
+C:\Users\oleksandr\Documents\GitHub\Movies\obj\Debug\MovieSPA.Migrations.Initial.resources
+C:\Users\oleksandr\Documents\GitHub\Movies\obj\Debug\MovieSPA.csproj.GenerateResource.Cache
+C:\Users\oleksandr\Documents\GitHub\Movies\obj\Debug\MovieSPA.dll
+C:\Users\oleksandr\Documents\GitHub\Movies\obj\Debug\MovieSPA.pdb
