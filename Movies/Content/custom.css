@@ -5,7 +5,7 @@
  
   
 }
-ul
+.nav-stacked ul
 {
    transition-property:width;
    transition-duration:0.8s;
@@ -19,14 +19,6 @@ ul:hover
      border-top-right-radius:10px;
      border-bottom-right-radius:10px;
     
-}
-
-
-
-body
-{ 
-  
-
 }
 #ctable
 {
@@ -158,6 +150,25 @@ h1
     
 
 }
+a:hover
+{
+    cursor:pointer;
+    text-decoration:none;
+}
+
+#add
+{
+    margin-left:1em;
+    color:#8DA0FF;
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:large;
+}
+
+#add:hover
+{
+    color:red;
+}
 #i
 {
     font-size:3em;
@@ -181,3 +192,10 @@ width:100%;
 background-image:url("../images/body.jpg")
 }
 
+select
+{
+    width:15em;
+    height:2.5em;
+    border-radius:0.3em;
+
+}
