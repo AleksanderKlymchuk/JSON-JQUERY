@@ -5,14 +5,14 @@
  
   
 }
-.nav-stacked ul
+ ul
 {
    transition-property:width;
    transition-duration:0.8s;
    width:3em;
 }
 
-ul:hover
+ ul:hover
 {
      background:linear-gradient(to left,#ADBBFF,white);
      width:7em;
@@ -87,10 +87,14 @@ height: auto;
  /* visibility: hidden;*/
 }
 
-tbody td button
+tbody td button {
+    
+}
+.delete
 {
-
-	float: right;
+    float:right;
+    margin-top:1em;
+    font-size:large;
 }
 .div1
 {
@@ -169,6 +173,7 @@ a:hover
 {
     color:red;
 }
+
 #i
 {
     font-size:3em;
