@@ -44,3 +44,4 @@ C:\Users\oleksandr\Documents\GitHub\JSON-JQUERY\Movies\obj\Debug\MovieSPA.Migrat
 C:\Users\oleksandr\Documents\GitHub\JSON-JQUERY\Movies\obj\Debug\MovieSPA.csproj.GenerateResource.Cache
 C:\Users\oleksandr\Documents\GitHub\JSON-JQUERY\Movies\obj\Debug\MovieSPA.dll
 C:\Users\oleksandr\Documents\GitHub\JSON-JQUERY\Movies\obj\Debug\MovieSPA.pdb
+C:\Users\oleksandr\Documents\GitHub\JSON-JQUERY\Movies\obj\Debug\MovieSPA.csprojResolveAssemblyReference.cache
