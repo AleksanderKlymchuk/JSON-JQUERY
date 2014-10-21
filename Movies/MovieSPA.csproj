@@ -96,6 +96,7 @@
     <Content Include="images\human1.png" />
     <Content Include="index.html" />
     <Content Include="Scripts\app.js" />
+    <None Include="Properties\PublishProfiles\json.pubxml" />
     <None Include="Scripts\jquery-2.0.3.intellisense.js" />
     <Content Include="Scripts\jquery-2.0.3.js" />
     <Content Include="Scripts\jquery-2.0.3.min.js" />

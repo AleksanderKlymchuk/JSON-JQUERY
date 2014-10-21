@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MovieSPAContext-Web.config Connection String" description="MovieSPAContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=MovieSPAContext-20130904134706; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|MovieSPAContext-20130904134706.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\oleksandr\\Documents\\GitHub\\JSON-JQUERY\\Movies\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MovieSPAContext']/@connectionString" />
+  </parameter>
+</parameters>
