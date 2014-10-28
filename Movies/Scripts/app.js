@@ -16,6 +16,14 @@
                width: "3em"
            }, 900)
     })
+    
+
+    $('#down').on('onclick',function()
+    {
+        $('body').scrollTo('#section');
+
+    }
+    )
     var rating = new Array()
     var id = null;
     $.getJSON('api/movies', function( data)
@@ -93,7 +101,7 @@
             $("li a").fancybox();
            
             $('table').remove()
-            var tb = ("<table class='table table-bordered' id='ctable'><thead><tr><td>Title</td><td>Year</td><td>Rating</td><td>Edit  <input id='checkbox' type='checkbox' unchecked/></tr></thead><tbody><tr></tr></tbody></table>")
+            var tb = ("<table class='table table-bordered' id='ctable'><thead><tr><td>Title</td><td>Year</td><td>Rating</td><td>Edit  <input id='checkbox' type='checkbox' unchecked/></tr></thead><tbody></tbody></table>")
             $('#tab').append(tb)
             Genre = $(this).attr("data-genre");
             $.getJSON('api/movies/?genre=' + Genre, function (genre) {
@@ -106,32 +114,49 @@
             .done(function () {
                 $('#checkbox').change(function () {
                    
-                    tr = $('tbody tr')
-                    td = tr.find('td').not('#last')
+                    tr = $('tbody tr ')
+                    td = tr.find('td').not('#last').prev()
+                   
                     if (this.checked)
                     {
                        $('button').remove()
                        tr.find('td:last').append('<button class="btn btn-success save ">Save</button><a class="glyphicon glyphicon-trash delete "></a>')
                        td.append('<input type="text" />')
+                       
+                       var option
+                       $.each(rating, function (data, rat) {
+                           option += ("<option >" + rat + "</option>")
+                       })
+                       select = "<select data='Rating'>" + option + "</select>"
+                       tr.each(function () {
+                          
+                           lst = $(this).find('td').last().prev().text('').append(select)
+                           console.log()
+                       })
                        td.each(function () {
                            $(this).find('input').attr({ value: $(this).text() })
-                         / $(this).find('span').hide()
+                           $(this).find('span').hide()
                          //update size of fancybox
                            $.fancybox.update()
                        })
                        $('.save').on("click", function () {
                            str = $(this).parent().parent().find('input')
                            var obj =new Object();
-                           str.each(function(){
+                           data = $(this).parent().parent().find('select')
+                           data.each(function () {
+                           })
+                           str.each(function () {
                               obj.Genre = $(this).parent().parent().attr('data-genre')
                               obj.ID = $(this).parent().parent().attr('data')
                               obj[$(this).prev().attr('data-obj')] = ($(this).val())
-                             
+                              obj.Rating = $(this).parent().parent().find('select').val()
                            })
+                          
                                $.ajax({
                                    type:"PUT",
                                    url: "api/movies/" + obj.ID,
-                                   data:obj
+                                   data: obj
+
                                }).done(function () {
                                    cont=confirm("Data is saved!\n \n Do you want continue editing?")
                                    if (cont==true)
@@ -151,9 +176,6 @@
                          
                        })
                        $('.delete').on('click', function () {
-
-                          
-
                            var ers = confirm("Delete data?")
                            if(ers==true){
                                
@@ -180,6 +202,14 @@
                     {
                         $('button').remove()
                         tr.find('input').remove()
+                        var select = tr.find('select')
+                      
+                        select.each(function () {
+                           span = "<span>"+select.val()+"</span>"
+                          $(this).after(span)
+                          select.hide()
+                        })
+                      
                         td.find('span').show()
                         $.fancybox.update()
                     }
