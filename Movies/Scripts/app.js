@@ -201,6 +201,7 @@
                     else if (this.checked==false)
                     {
                         $('button').remove()
+                        $("a").remove()
                         tr.find('input').remove()
                         var select = tr.find('select')
                       
